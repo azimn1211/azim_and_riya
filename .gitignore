@@ -1,0 +1,12 @@
+# Reference material and personal files (kept local, not part of the site)
+reference_website/
+reference_website_screenshots/
+azim_wedding_letter/
+
+# Local tooling
+.remember/
+.claude/
+.vercel/
+__pycache__/
+*.pyc
+.DS_Store
