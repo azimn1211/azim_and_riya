@@ -430,7 +430,6 @@ svg { display: inline-block; }
 @media (min-width: 768px) { .title { font-size: 23px; } }
 .host { font-weight: 600; font-size: 16px; letter-spacing: .01em; color: var(--plum); }
 @media (min-width: 768px) { .host { font-size: 18px; } }
-.address { margin-top: 2px; font-size: 14px; color: var(--gold-deep); }
 
 .flourish--line { margin: 18px auto 16px; }
 .flourish--line i { width: 70px; }

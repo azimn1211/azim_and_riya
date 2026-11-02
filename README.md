@@ -13,7 +13,8 @@ not needed to host the site.
    falling petals. *Open Invitation* breaks the seal, flowers fly at the
    viewer, petals burst out and the card lifts away.
 2. **Hero:** السَّلَامُ عَلَيْكُمْ and the names inside a watercolour wreath.
-3. **Invitation** from Mr. Nisamudeen & Mrs. Safiya, worded as on the card.
+3. **Invitation** from Mr. Nisamudeen & Mrs. Safiya, worded as on the card
+   (without the home addresses).
 4. **Qur'an 30:21** in Arabic with its meaning.
 5. **The Nikah:** date badge (like the printed card), Hijri date, time, masjid
    and venue, live countdown, calendar and *Add to Calendar*. A *Confirm
