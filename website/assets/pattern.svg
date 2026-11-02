@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <!-- Eight-pointed star lattice (khatam). Star tips meet at the tile edges,
+       leaving the classic cross shapes between neighbouring stars. -->
+  <g fill="none" stroke="#c9a65c" stroke-width="1" stroke-linejoin="round">
+    <path d="M48 0 L59.48 20.28 L81.94 14.06 L75.72 36.52 L96 48 L75.72 59.48 L81.94 81.94 L59.48 75.72 L48 96 L36.52 75.72 L14.06 81.94 L20.28 59.48 L0 48 L20.28 36.52 L14.06 14.06 L36.52 20.28 Z"/>
+    <path d="M48 14 L72.04 23.96 L82 48 L72.04 72.04 L48 82 L23.96 72.04 L14 48 L23.96 23.96 Z" opacity=".55"/>
+    <circle cx="48" cy="48" r="9" opacity=".7"/>
+  </g>
+  <g fill="#c9a65c">
+    <circle cx="0" cy="0" r="2"/><circle cx="96" cy="0" r="2"/>
+    <circle cx="0" cy="96" r="2"/><circle cx="96" cy="96" r="2"/>
+    <circle cx="48" cy="48" r="1.6"/>
+  </g>
+</svg>
