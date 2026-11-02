@@ -20,7 +20,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Viaoda+Libre&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Rouge+Script&family=Viaoda+Libre&display=swap">
   <link rel="preload" as="image" href="assets/flowers/cluster-a.webp">
   <link rel="preload" as="image" href="assets/flowers/bed-intro.webp">
   <link rel="stylesheet" href="css/style.css">
@@ -98,6 +98,13 @@
     <path fill="currentColor" fill-rule="evenodd" d="M5 44V19l2.5-5 2.5 5v25Zm33 0V19l2.5-5 2.5 5v25ZM12 44V27h24v17Zm1-17c0-7 5-10.5 11-14 6 3.5 11 7 11 14Zm10.4-14V9.6h1.2V13ZM20.5 44v-6.5a3.5 3.5 0 0 1 7 0V44Zm-6-7v-3.2a1.5 1.5 0 0 1 3 0V37Zm16 0v-3.2a1.5 1.5 0 0 1 3 0V37Z"/>
     <path fill="currentColor" d="M24.6 3.8a2.9 2.9 0 1 0 2.3 4.6 2.3 2.3 0 1 1-2.3-4.6Z"/>
     <path fill="currentColor" d="M7 12.6h1v-2.2H7Zm33 0h1v-2.2h-1Z"/>
+  </symbol>
+  <symbol id="i-rings" viewBox="0 0 24 24">
+    <g fill="none" stroke="currentColor" stroke-width="1.7">
+      <circle cx="8.8" cy="14.6" r="5.6"/>
+      <circle cx="15.2" cy="14.6" r="5.6"/>
+    </g>
+    <path fill="currentColor" d="M8.8 3.2 11 5.9 8.8 8.4 6.6 5.9Z"/>
   </symbol>
   <symbol id="i-pin" viewBox="0 0 48 48">
     <path fill="currentColor" fill-rule="evenodd" d="M24 4C16.3 4 10 10.1 10 17.7 10 28 24 41 24 41s14-13 14-23.3C38 10.1 31.7 4 24 4Zm0 19.2a5.6 5.6 0 1 1 0-11.2 5.6 5.6 0 0 1 0 11.2Z"/>
@@ -274,6 +281,13 @@
           </div>
         </div>
 
+        <div class="reception" data-reveal>
+          <svg class="reception__icon" aria-hidden="true"><use href="#i-rings"/></svg>
+          <p class="fact__label">Wedding Reception</p>
+          <p class="fact__text">Sim Auditorium</p>
+          <p class="fact__small">Vizhinjam Harbour Road, Kovalam</p>
+        </div>
+
         <div class="countdown" data-reveal>
           <p class="countdown__title">Counting the days</p>
           <div class="countdown__grid" id="countdown">
@@ -333,6 +347,9 @@
           <button class="tab" role="tab" aria-selected="false" data-place="venue" type="button">
             <svg aria-hidden="true"><use href="#i-pin"/></svg> Venue
           </button>
+          <button class="tab" role="tab" aria-selected="false" data-place="reception" type="button">
+            <svg aria-hidden="true"><use href="#i-rings"/></svg> Reception
+          </button>
         </div>
         <div class="place" data-reveal>
           <p class="place__name" id="place-name">Vallakkadavu Juma Masjid</p>
@@ -344,30 +361,6 @@
             <svg aria-hidden="true"><use href="#i-nav"/></svg> Get directions
           </a>
         </div>
-      </div>
-    </section>
-
-    <!-- Best wishes ---------------------------------------------------->
-    <section class="block wishes" aria-label="Best wishes">
-      <div class="inner">
-        <div class="decor" aria-hidden="true">
-          <span class="deco deco--ghost" style="--x:50%; --y:50%; --w:74%; --r:8deg" data-speed=".09"><img decoding="async" src="assets/flowers/cluster-c.webp" alt=""></span>
-          <span class="deco" style="--x:-7%; --xm:-14%; --y:70%; --w:24%; --r:14deg" data-speed="-.06"><img decoding="async" class="sway" data-amp="2.6" data-dur="5.8" src="assets/flowers/frond-soft.webp" alt=""></span>
-          <span class="deco" style="--x:106%; --xm:113%; --y:30%; --w:22%; --r:-12deg" data-speed=".05"><img decoding="async" class="sway" data-amp="2.4" data-dur="5.2" data-delay="-1.6" src="assets/flowers/sprig-gold.webp" alt=""></span>
-        </div>
-        <div class="wishes__head" data-reveal>
-          <svg class="wishes__orn" aria-hidden="true"><use href="#i-laurel"/></svg>
-          <h2 class="title title--inline">Best Wishes</h2>
-          <svg class="wishes__orn wishes__orn--r" aria-hidden="true"><use href="#i-laurel"/></svg>
-        </div>
-        <ul class="wishes__list">
-          <li data-reveal>Nasar Saqafi</li>
-          <li data-reveal style="--d:.08s">Abid Muhsina</li>
-          <li data-reveal style="--d:.16s">Sajeer Aadila</li>
-          <li data-reveal style="--d:.24s">Hiba Fathima</li>
-          <li data-reveal style="--d:.32s">Ayra Maryam</li>
-          <li data-reveal style="--d:.4s">Hadi Muhammed</li>
-        </ul>
       </div>
     </section>
 
