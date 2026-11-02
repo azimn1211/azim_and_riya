@@ -44,7 +44,7 @@ Add `?to=` with the guest's name. The card greets them by name (and, once the
 RSVP button is on, the WhatsApp message includes it):
 
 ```
-https://YOUR-SITE/?to=Rahul%20%26%20Family
+https://azimandriya.vercel.app/?to=Rahul%20%26%20Family
 ```
 
 (`%20` is a space and `%26` is `&`.)
@@ -68,20 +68,17 @@ A 3D cover-flow gallery is built in but hidden. To show it, put photos in
 
 ## Hosting
 
-The site is live at **https://azim-and-riya.vercel.app**, deployed from
-`website/` to the Vercel project `azim-and-riya`. The deployment is made with
-the Vercel CLI, so pushing to GitHub does not redeploy it on its own.
+The site is live at **https://azimandriya.vercel.app**. It is hosted by the
+Vercel project `azim_and_riya` on Azim's account, which is connected to this
+repository: every merge into `main` deploys to production automatically, and
+other branches get preview deployments. `vercel.json` tells Vercel to serve the
+`website/` folder with no build step.
 
-To publish changes, merge them into `main`, then from `website/`:
-
-```bash
-vercel link --project azim-and-riya   # once per machine
-vercel deploy --prod
-```
+The repository is public because Vercel's free Hobby plan only deploys the
+owner's commits from a private repository.
 
 WhatsApp and other link previews read `og:url` and `og:image` in
-`index.html`. They must be full URLs, so update both if the site moves to
-another address.
+`index.html`. They must be full URLs, so update both if the address changes.
 
 ## Branches
 
