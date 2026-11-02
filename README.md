@@ -18,10 +18,11 @@ not needed to host the site.
 5. **The Nikah:** date badge (like the printed card), Hijri date, time, masjid
    and venue, live countdown, calendar and *Add to Calendar*. A *Confirm
    Attendance* button (opens WhatsApp) appears once Azim's number is set.
-6. **Finding us:** Google Maps for the masjid and the convention centre, with
-   directions.
-7. **Best wishes** and a **du'a for the newlyweds** in a mihrab arch.
-8. **Footer** with the family's thanks and a flower bed.
+6. **Wedding reception** at Sim Auditorium, Vizhinjam Harbour Road, Kovalam.
+7. **Finding us:** Google Maps for the masjid, the convention centre and the
+   reception, with directions.
+8. A **du'a for the newlyweds** in a mihrab arch.
+9. **Footer** with the family's thanks and a flower bed.
 
 Motion: swaying branches, layered parallax (faint background branches drift
 slower than the page, edge branches faster), scroll reveals, and
@@ -107,5 +108,5 @@ google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files \
   --screenshot=og.png "file://$PWD/tools/og.html"
 ```
 
-Fonts come from Google Fonts (Great Vibes, Viaoda Libre, EB Garamond, Amiri),
+Fonts come from Google Fonts (Rouge Script, Viaoda Libre, EB Garamond, Amiri),
 all under the SIL Open Font License.

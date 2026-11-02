@@ -23,6 +23,11 @@
         addr: 'Valiyapally Juma Masjid Road, Vallakkadavu, Thiruvananthapuram',
         at: '8.4712179,76.9260925',
       },
+      reception: {
+        name: 'Sim Auditorium',
+        addr: 'Vizhinjam Harbour Road, Kovalam',
+        at: '8.3871837,76.985373',
+      },
     },
   };
 
@@ -443,7 +448,7 @@
     const title = 'Nikah of Azim & Riya';
     const where = 'Vallakkadavu Juma Masjid, Vallakkadavu Road, Thiruvananthapuram';
     const url = location.href.split(/[?#]/)[0];
-    const details = `Nikah at Vallakkadavu Juma Masjid (near Airport), 11:30 – 12:00.\nVenue: Vallakkadavu Convention Centre.\n${url}`;
+    const details = `Nikah at Vallakkadavu Juma Masjid (near Airport), 11:30 – 12:00.\nVenue: Vallakkadavu Convention Centre.\nWedding reception: Sim Auditorium, Vizhinjam Harbour Road, Kovalam.\n${url}`;
     $('#gcal-link').href = `https://calendar.google.com/calendar/render?${new URLSearchParams({
       action: 'TEMPLATE', text: title, dates: `${stamp(CONFIG.nikah)}/${stamp(CONFIG.nikahEnd)}`,
       details, location: where, ctz: 'Asia/Kolkata',
